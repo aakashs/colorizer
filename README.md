@@ -91,7 +91,7 @@ D had about 3 million parameters (exact value depends on the input image size), 
 
 Requirements are:
 * Torch
-  * Required packages (most of them should be part of the default torch install, install missing ones with `luarocks install packageName`): `cudnn`, `nn`, `pl`, `paths`, `image`, `optim`, `cutorch`, `cunn`, `cudnn`, `dpnn`, `display`
+  * Required packages (most of them should be part of the default torch install, install missing ones with `luarocks install packageName`): `cudnn`, `nn`, `pl`, `paths`, `image`, `optim`, `cutorch`, `cunn`, `cudnn`, `dpnn`, `display`, `sys`
 * Image datasets have to be downloaded from previous projects and will likely require Python 2.7. You can however use your own dataset, provided that the images in that one are square or have an aspect ratio of 2.0 (e.g. height=64, width=32). Other ratios might work but haven't been tested.
   * [Human faces](https://github.com/aleju/face-generator)
   * [Cat faces](https://github.com/aleju/cat-generator)
